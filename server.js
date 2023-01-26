@@ -4,9 +4,9 @@ const dotenv = require("dotenv");
 const authRoutes = require("./routes/authRoutes");
 dotenv.config({path: ".env"});
 
-const app = express();
 const port = process.env.PORT || 3000;
 
+const app = express();
 app.use(express.json())  // use this as to get json response
 
 // data base connection
