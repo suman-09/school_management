@@ -1,5 +1,5 @@
 {
-  "name": "rest_api",
+  "name": "school_management",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -20,6 +20,7 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mongoose": "^6.8.3",
+    "router": "^1.3.7",
     "validator": "^13.7.0"
   }
 }
