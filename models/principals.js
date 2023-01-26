@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const { isEmail } = require("validator");
 
-const teacherSchema = new mongoose.Schema({
+const principalSchema = new mongoose.Schema({
     basicinfo: {
         name: {
             type: String,
@@ -27,5 +27,5 @@ const teacherSchema = new mongoose.Schema({
     }
 })
 
-const Teacher = new mongoose.model('Teacher', teacherSchema);
-module.exports = Teacher;
+const Principal = new mongoose.model('Principal', principalSchema);
+module.exports = Principal;
