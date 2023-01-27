@@ -1,5 +1,5 @@
 const Student = require("../models/students");
-const Teacher = require("../models/teacher");
+const Teacher = require("../models/teachers");
 const Principal = require("../models/principals");
 
 // crating students
